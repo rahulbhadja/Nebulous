@@ -16,7 +16,6 @@ import Footer from '../components/Footer';
 
 let rpcEndpoint =
   'https://polygon-mumbai.g.alchemy.com/v2/5F_8ytFz7F0IVUdhuR0_jhzAZmCEmcZk';
-
 if (process.env.NEXT_PUBLIC_WORKSPACE_URL) {
   rpcEndpoint = process.env.NEXT_PUBLIC_WORKSPACE_URL;
 }
