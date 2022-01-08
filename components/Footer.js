@@ -60,18 +60,11 @@ export default function Footer() {
               <div className='row'>
                 <div className='col-sm-3'>
                   <a href='' target='blank'>
-                    <i
-                      id='github'
-                      className='fa fa-3x fa-github'
-                      aria-hidden='true'
-                    ></i>
+                    <i id='github' className='' aria-hidden='true'></i>
                   </a>
                 </div>
                 <div className='col-sm-3'>
-                  <a
-                    href='https://www.linkedin.com/in/aakash-yadav-a30627190/'
-                    target='blank'
-                  >
+                  <a href='' target='blank'>
                     <i
                       id='linkedin'
                       className='fa fa-3x fa-linkedin'
@@ -80,10 +73,7 @@ export default function Footer() {
                   </a>
                 </div>
                 <div className='col-sm-3'>
-                  <a
-                    href='https://www.instagram.com/aakash_igram/'
-                    target='blank'
-                  >
+                  <a href='' target='blank'>
                     <i
                       id='instagram'
                       className='fa fa-3x fa-instagram'
@@ -92,7 +82,7 @@ export default function Footer() {
                   </a>
                 </div>
                 <div className='col-sm-3'>
-                  <a href='https://twitter.com/Aakashv0007' target='blank'>
+                  <a href='' target='blank'>
                     <i
                       id='twitter'
                       className='fa fa-3x fa-twitter'
