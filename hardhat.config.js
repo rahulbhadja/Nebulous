@@ -10,15 +10,14 @@ module.exports = {
       chainId: 1337,
     },
     mumbai: {
-      url: 'https://polygon-mumbai.g.alchemy.com/v2/5F_8ytFz7F0IVUdhuR0_jhzAZmCEmcZk',
+      url: 'https://polygon-mumbai.infura.io/v3/efdee49078b0485e844c8812d5f9c081',
       //url: "https://rpc-mumbai.matic.today",
       accounts: [privateKey],
     },
-    // matic: {
-    //   // Infura
-    //   url: "https://rpc-mainnet.maticvigil.com",
-    //   accounts: [privateKey]
-    // }
+    matic: {
+      url: 'https://rpc-mainnet.maticvigil.com',
+      accounts: [privateKey],
+    },
   },
   solidity: {
     version: '0.8.4',

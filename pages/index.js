@@ -15,7 +15,7 @@ import WaveFooter from '../components/WaveFooter';
 import Footer from '../components/Footer';
 
 let rpcEndpoint =
-  'https://polygon-mumbai.g.alchemy.com/v2/5F_8ytFz7F0IVUdhuR0_jhzAZmCEmcZk';
+  'https://polygon-mumbai.infura.io/v3/efdee49078b0485e844c8812d5f9c081';
 if (process.env.NEXT_PUBLIC_WORKSPACE_URL) {
   rpcEndpoint = process.env.NEXT_PUBLIC_WORKSPACE_URL;
 }

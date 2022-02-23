@@ -95,7 +95,7 @@ contract NFTMarket is ReentrancyGuard {
         uint256 price = idToMarketItem[itemId].price;
         uint256 tokenId = idToMarketItem[itemId].tokenId;
         require(
-            msg.value == price,
+            msg.value >= price,
             "Please make the price to be same as listing price"
         );
 
